@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Apple 风格页面</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #F2F2F2;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            max-height: calc(70vh);
+            padding: 0 16px;
+        }
+
+
+        .card {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            padding: 48px;
+            background-color: #fff;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .logo {
+            width: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100px;
+            background-color: #d0cccc;
+            /*background-size: cover;*/
+            margin-bottom: 24px;
+            border-radius: 30px;
+        }
+
+        .heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .subheading {
+            font-size: 18px;
+            margin-bottom: 24px;
+            color: #4A4A4A;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: #A7A7A7;
+            margin-top: 32px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="logo" style="background-image: url('./logo2.png')"></div>
+        <h1 class="heading">Quick Query First . com</h1>
+        <p class="subheading">高性能平台</p>
+        <div class="footer">© 2023 qqfirst. All rights reserved.</div>
+    </div>
+</div>
+</body>
+</html>
